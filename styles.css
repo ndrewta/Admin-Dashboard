@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    background-color:rgb(219, 229, 158);
+    grid-column-start: 2;
+}
+
+.header > div {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(121, 172, 230);
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sidebar > div {
+    display: flex;
+
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-color:rgb(206, 180, 240);
+}
+
+.main-content > div {
+    border: dotted;
+}
+
+.side-content > div {
+    border: dotted;
+}

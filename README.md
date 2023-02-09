@@ -1,1 +1,1 @@
-# Admin-Dashboard
+This is a showcase of an admin page layout.
